@@ -7,3 +7,5 @@ Kami membuat web menggunakan struktur HTML yang sederhana, dengan menggunakan Fr
 Installer CDN Tailwind CSS : https://tailwindcss.com/docs/installation/play-cdn/
 
 Untuk lebih lengkap mengenai Tailwind CSS bisa di cek di website : https://tailwindcss.com/
+
+Noted : Teks dan Gambar yang kami tampilkan di website hanya untuk contoh sementara, karena kami tidak punya data Teks & Gambar yang akurat. Sehingga kami membuat Fake Teks untuk mengisi konten website.
