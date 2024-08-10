@@ -1,0 +1,619 @@
+<html class="">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Website BEM ITBA DCC" />
+      <meta name="description" content="Kota Bumi - Bandar Lampung" />
+      <meta name="author" content="Fahmi & Syayyidah" />
+      <link rel="shortcut icon" href="./IMG/logo.png" type="">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="./JS/main.js" defer></script>
+      <script src="./JS/animation.js" defer></script>
+      <link rel="stylesheet" href="./CSS/app.css">
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+      <title>Official Website BEM ITBA DCC</title>
+  </head> 
+<header id="home" class="bg-white shadow-md">
+  <nav class="flex justify-between items-center w-[92%] mx-auto py-2">
+      <div class="flex items-center">
+          <img class="h-14" src="./IMG/logo2.png" alt="Logo">
+      </div>
+    <div class="z-50 nav-links text-slate-950 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 md:px-0 transition-all duration-500 ease-in-out">
+          <ul class="flex font-medium md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+              <li>
+                  <a class="hover:text-rose-600" href="#profile">Profile</a>
+              </li>
+              <li>
+                  <a class="hover:text-rose-600" href="#visi-misi">Visi Misi</a>
+              </li>
+              <li>
+                  <a class="hover:text-rose-600" href="#struktur">Struktur Anggota</a>
+              </li>
+              <li>
+                  <a class="hover:text-rose-600" href="#blog">Blog</a>
+              </li>
+              <li>
+                  <a class="hover:text-rose-600" href="#galeri">Galeri</a>
+              </li>
+              <li>
+                  <a class="hover:text-rose-600" href="#kontak">Kontak</a>
+              </li>
+          </ul>
+      </div>
+      <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+  </nav>
+</header>
+<body class="bg-slate-100">
+<section id="home" class="relative bg-[url(./IMG/banner.jpg)] bg-cover bg-center bg-no-repeat">
+    <div class="absolute inset-0 bg-black/50 sm:bg-black/50 md:bg-black/50 lg:bg-black/50"></div>
+      <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+        <div class="text-white">
+          <h1 class="h1-hero text-3xl font-extrabold sm:text-5xl lg:text-white md:text-white">
+            <span class="text-rose-600">B</span>adan <span class="text-rose-600">E</span>ksekutif <span class="text-rose-600">M</span>ahasiswa
+            <strong class="block font-extrabold text-white">ITBA DCC</strong>
+          </h1>
+        <p class="p-hero mt-4 max-w-lg font-bold text-white sm:text-xl/relaxed lg:text-white">
+          Kabinet Garda Nayanika
+        </p>
+          <div class="btn-hero mt-8 flex flex-wrap gap-4 text-center">
+            <a href="#profile" class="block w-full rounded-full bg-rose-600 px-12 py-3 transition duration-300 text-sm font-medium text-white shadow-lg hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto">Profile BEM</a>
+            <a href="#struktur" class="block w-full rounded-full bg-white px-12 py-3 text-sm transition duration-300 font-medium text-rose-600 shadow-lg hover:text-white hover:border border-white hover:bg-transparent focus:outline-none focus:ring active:text-rose-500 sm:w-auto">Struktur Anggota</a>
+          </div>
+        </div>
+      </div>
+</section>
+<section>
+      <div id="profile" class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+        <div class="max-w-3xl">
+          <h3 class="h3-profile text-xl text-black font-bold lg:text-2xl">
+            Profile BEM ITBA DCC
+          </h3>
+        </div>
+        <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+          <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+            <img alt="" src="./IMG/logo2.png" class="img-profile absolute rounded inset-0 h-full w-full object-scale-down"/>
+        </div>
+          <div class="lg:py-16 m-2">
+            <article class="space-y-4 text-left text-gray-600">
+              <p class="p-profile-1">
+                <span class="font-semibold">Badan Eksekutif Mahasiswa (BEM) ITBA DCC</span> adalah organisasi mahasiswa yang bertugas mewakili dan menyuarakan aspirasi seluruh mahasiswa. 
+                Mereka juga bertindak sebagai penggerak dalam berbagai kegiatan akademik dan non-akademik. 
+                BEM ITBA DCC berkomitmen untuk menciptakan lingkungan akademis yang inklusif, dinamis, dan inovatif. 
+                Mereka merancang program kerja yang fokus pada pengembangan soft skills, kepemimpinan, kreativitas, serta kepekaan sosial. 
+                Selain mendorong prestasi akademis, BEM ITBA DCC juga mengajak mahasiswa untuk aktif dalam kegiatan sosial dan budaya, baik di dalam maupun di luar kampus. 
+              </p>
+            <p class="p-profile-2">
+                Dengan semangat kolaborasi, profesionalisme, dan dedikasi, BEM ITBA DCC berupaya memberikan kontribusi nyata dan positif, baik untuk komunitas kampus maupun masyarakat luas, melalui program-program inovatif dan bermanfaat.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+<section id="sambutan">
+    <div class="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+        <div class="relative z-10 lg:py-16">
+          <div class="relative h-64 sm:h-80 lg:h-full">
+            <img alt="" src="./IMG/anggota.png" class="img-sambutan absolute inset-0 h-full w-full object-contain rounded lg:object-contain"/>
+          </div>
+        </div>
+      <div class="relative flex items-center bg-slate-200 h-auto">
+        <span class="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
+          <div class="p-8 sm:p-16 lg:p-24">
+            <h4 class="h4-sambutan font-semibold">Kata Sambutan</h4>
+            <h2 class="h2-sambutan text-2xl font-bold text-rose-600 lg:text-3xl">
+              Presiden BEM ITBA DCC
+            </h2>
+          <p class="p-sambutan mt-4 text-sm text-left text-gray-600 lg:text-lg">
+              Assalamu'alaikum Wr. Wb.<br>
+              Kami, Badan Eksekutif Mahasiswa (BEM) ITBA DCC , menyambut Anda di
+              situs resmi kami. Situs ini dibuat untuk memberikan informasi
+              terkini dan memfasilitasi komunikasi antar mahasiswa. Kami
+              berkomitmen untuk mendukung kegiatan yang memperkaya pengalaman
+              akademik dan kreatifitas. <br />Terima kasih atas kunjungannya,
+              Semoga informasi yang kami sajikan bermanfaat.<br />
+              Wassalamu'alaikum Wr. Wb.
+            </p>
+            <div class="btn-sambutan">
+            <a href="./struktur.html" class="mt-8 inline-block shadow-lg rounded-full border border-red-500 bg-red-500 px-7 py-2 text-xs font-medium text-white lg:px-12 lg:py-3 lg:text-sm hover:bg-transparent transition duration-300 hover:text-red-500 focus:outline-none focus:ring active:text-red-500">
+              Anggota BEM
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="visi-misi" class="bg-gray-900 text-white">
+      <div class="max-w-screen-xl m-2 px-4 py-8 lg:mx-auto sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+        <div class="max-w-xl">
+          <h2 class="h2-visi text-3xl text-rose-600 font-bold lg:text-4xl">Visi</h2>
+          <p class="p-visi mt-2 mb-5 text-gray-300">
+            Membangun komunitas mahasiswa yang inovatif, generasi pemimpin yang inklusif, dan berwawasan global.
+          </p>
+          <h2 class="h2-misi text-3xl text-rose-600 font-bold lg:text-4xl">Misi</h2>
+          <p class="p-misi mt-2 text-gray-300">
+            Berikut Adalah Misi Kami
+          </p>
+        </div>
+        <div class="group-misi mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-2">
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h5 w-5" viewBox="0 0 64 64" style="fill:#FFFFFF;">
+              <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M45.121,28.121l-13,13 C31.535,41.707,30.768,42,30,42s-1.535-0.293-2.121-0.879l-8-8c-1.172-1.171-1.172-3.071,0-4.242c1.172-1.172,3.07-1.172,4.242,0 L30,34.758l10.879-10.879c1.172-1.172,3.07-1.172,4.242,0C46.293,25.05,46.293,26.95,45.121,28.121z"></path>
+              </svg>            
+            </span>
+            <div>
+              <h2 class="text-sm font-bold lg:text-lg">Mengembangkan Kreativitas dan Inovasi</h2>
+              <p class="mt-1 text-xs text-gray-300">
+                Membuat program yang mendorong mahasiswa untuk berpikir kreatif dan inovatif di bidang akademik, kewirausahaan, dan teknologi.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h5 w-5" viewBox="0 0 64 64" style="fill:#FFFFFF;">
+              <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M45.121,28.121l-13,13 C31.535,41.707,30.768,42,30,42s-1.535-0.293-2.121-0.879l-8-8c-1.172-1.171-1.172-3.071,0-4.242c1.172-1.172,3.07-1.172,4.242,0 L30,34.758l10.879-10.879c1.172-1.172,3.07-1.172,4.242,0C46.293,25.05,46.293,26.95,45.121,28.121z"></path>
+              </svg>            
+            </span>
+          <div>
+            <h2 class="text-sm font-bold lg:text-lg">Meningkatkan Kepemimpinan Kolaboratif</h2>
+              <p class="mt-1 text-xs text-gray-300">
+                Membangun lingkungan di mana mahasiswa dapat belajar dan mengembangkan keterampilan kepemimpinan yang menekankan kerja sama dan komunikasi yang efektif.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h5 w-5" viewBox="0 0 64 64" style="fill:#FFFFFF;">
+              <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M45.121,28.121l-13,13 C31.535,41.707,30.768,42,30,42s-1.535-0.293-2.121-0.879l-8-8c-1.172-1.171-1.172-3.071,0-4.242c1.172-1.172,3.07-1.172,4.242,0 L30,34.758l10.879-10.879c1.172-1.172,3.07-1.172,4.242,0C46.293,25.05,46.293,26.95,45.121,28.121z"></path>
+              </svg>            
+            </span>
+            <div>
+              <h2 class="text-sm font-bold lg:text-lg">Meningkatkan Keterampilan Global</h2>
+              <p class="mt-1 text-xs text-gray-300">
+                Menyediakan pelatihan dan kegiatan yang mempersiapkan mahasiswa untuk berkompetisi di tingkat nasional dan internasional.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h5 w-5" viewBox="0 0 64 64" style="fill:#FFFFFF;">
+              <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M45.121,28.121l-13,13 C31.535,41.707,30.768,42,30,42s-1.535-0.293-2.121-0.879l-8-8c-1.172-1.171-1.172-3.071,0-4.242c1.172-1.172,3.07-1.172,4.242,0 L30,34.758l10.879-10.879c1.172-1.172,3.07-1.172,4.242,0C46.293,25.05,46.293,26.95,45.121,28.121z"></path>
+              </svg>            
+            </span>
+            <div>
+              <h2 class="text-sm font-bold lg:text-lg">Meningkatkan Keterlibatan Mahasiswa</h2>
+              <p class="mt-1 text-xs text-gray-300">
+                Membangun kepedulian dan tanggung jawab sosial dengan melibatkan mahasiswa dalam berbagai kegiatan sosial, lingkungan, dan kemasyarakatan.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h5 w-5" viewBox="0 0 64 64" style="fill:#FFFFFF;">
+              <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M45.121,28.121l-13,13 C31.535,41.707,30.768,42,30,42s-1.535-0.293-2.121-0.879l-8-8c-1.172-1.171-1.172-3.071,0-4.242c1.172-1.172,3.07-1.172,4.242,0 L30,34.758l10.879-10.879c1.172-1.172,3.07-1.172,4.242,0C46.293,25.05,46.293,26.95,45.121,28.121z"></path>
+              </svg>            
+            </span>
+            <div>
+              <h2 class="text-sm font-bold lg:text-lg">Mendorong Partisipasi Aktif Mahasiswa</h2>
+              <p class="mt-1 text-xs text-gray-300">
+                Membangun rasa kepedulian dan tanggung jawab sosial dengan mengajak mahasiswa berpartisipasi aktif dalam kegiatan sosial, lingkungan, dan kemasyarakatan.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <span class="shrink-0 rounded-lg bg-gray-800 p-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h5 w-5" viewBox="0 0 64 64" style="fill:#FFFFFF;">
+              <path d="M32,6C17.641,6,6,17.641,6,32c0,14.359,11.641,26,26,26s26-11.641,26-26C58,17.641,46.359,6,32,6z M45.121,28.121l-13,13 C31.535,41.707,30.768,42,30,42s-1.535-0.293-2.121-0.879l-8-8c-1.172-1.171-1.172-3.071,0-4.242c1.172-1.172,3.07-1.172,4.242,0 L30,34.758l10.879-10.879c1.172-1.172,3.07-1.172,4.242,0C46.293,25.05,46.293,26.95,45.121,28.121z"></path>
+              </svg>            
+            </span>
+            <div>
+              <h2 class="text-sm font-bold lg:text-lg">Membangun Integritas dan Etika</h2>
+              <p class="mt-1 text-xs text-gray-300">
+                Menanamkan nilai-nilai moral dan etika dalam setiap aktivitas, serta menjunjung tinggi kejujuran dan tanggung jawab.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section id="struktur" class="bg-slate-100">
+    <div class="max-w-xl mt-20 text-center mx-auto">
+        <h2 class="h2-struktur text-2xl font-bold lg:text-3xl">Struktur BEM ITBA DCC</h2>
+        <p class="p-struktur mt-2 mb-5 text-sm text-black lg:text-lg">
+            Anggota Kepengurusan BEM ITBA DCC 2023/2024
+        </p>
+    </div>
+  <div class="group-1-struktur grid grid-cols-2 mt-5 mb-5 px-5 gap-4 lg:m-32 md:grid-cols-2 md:m-20 lg:grid-cols-2 lg:px-80 lg:gap-8 lg:mt-0 lg:mb-0">
+        <a href="#" class="group relative h-96 block rounded-xl shadow-lg bg-black">
+            <img alt="" src="./IMG/ag.jpg" class="absolute inset-0 h-full w-full rounded-xl shadow-md object-cover opacity-75 transition-opacity group-hover:opacity-50"/>
+            <div class="relative p-4 sm:p-6 lg:p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-white">Presiden BEM</p>
+                <div class="mt-32 sm:mt-48 lg:mt-64">
+                    <div
+                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                        <p class="text-lg font-bold text-center text-white">
+                            Rico Fadli
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="group relative block h-96 rounded-xl shadow-lg bg-black">
+            <img alt="" src="./IMG/ag.jpg" class="absolute inset-0 h-full w-full rounded-xl shadow-md object-cover opacity-75 transition-opacity group-hover:opacity-50"/>
+            <div class="relative p-4 sm:p-6 lg:p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-white">Wakil Presiden BEM</p>
+                <div class="mt-32 sm:mt-48 lg:mt-64">
+                    <div
+                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p class="text-lg font-bold text-center text-white">
+                      Siti Aisah
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+  <div class="group-2-struktur grid grid-cols-1 px-28 gap-4 lg:m-32 md:grid-cols-2 md:m-20 lg:px-36 lg:grid-cols-3 lg:gap-8">
+      <a href="#" class="group relative block h-96 rounded-xl shadow-lg bg-black">
+        <img alt="" src="./IMG/ag.jpg" class="absolute inset-0 h-full w-full rounded-xl shadow-md object-cover opacity-75 transition-opacity group-hover:opacity-50"/>
+            <div class="relative p-4 sm:p-6 lg:p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-white">Bendahara</p>
+                <div class="mt-32 sm:mt-48 lg:mt-64">
+                    <div
+                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p class="text-lg font-bold text-center text-white">
+                      Alfaenis Nayni
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="group relative block h-96 rounded-xl shadow-lg bg-black">
+          <img alt="" src="./IMG/ag.jpg" class="absolute inset-0 h-full w-full rounded-xl shadow-md object-cover opacity-75 transition-opacity group-hover:opacity-50"/>
+            <div class="relative p-4 sm:p-6 lg:p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-white">Sekretaris 1</p>
+                <div class="mt-32 sm:mt-48 lg:mt-64">
+                    <div
+                        class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p class="text-lg font-bold text-center text-white">
+                      Amalia
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="#" class="group relative block h-96 rounded-xl shadow-lg bg-black">
+          <img alt="" src="./IMG/ag.jpg" class="absolute inset-0 h-full w-full rounded-xl shadow-md object-cover opacity-75 transition-opacity group-hover:opacity-50"/>
+            <div class="relative p-4 sm:p-6 lg:p-8">
+                <p class="text-sm font-medium uppercase tracking-widest text-white">Sekretaris 2</p>
+                <div class="mt-32 sm:mt-48 lg:mt-64">
+                    <div class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100">
+                    <p class="text-lg font-bold text-center text-white">
+                      Diana Yulia Eka
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+  <div class="btn-struktur flex justify-center mt-8">
+        <a href="./struktur.html" class="bg-rose-600 shadow-lg text-center w-full max-w-xs px-2 font-medium uppercase text-xs text-white py-2 mx-auto rounded-full transition duration-300 hover:bg-rose-700 lg:text-sm lg:px-4 lg:py-3">Lihat Semua Anggota</a>
+    </div>
+</section>
+<section id="blog" class="m-10 lg:m-32">
+      <h2 class="h2-blog text-2xl font-bold mx-auto max-w-lg text-center mb-10 lg:text-3xl">Blog Kegiatan</h2>
+      <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+        <article class="grid-1-blog overflow-hidden rounded-lg border bg-white shadow-md">
+          <img alt="" src="./IMG/pelantikan.jpeg" class="h-56 w-full object-cover"/>
+          <div class="p-4 sm:p-6">
+            <a href="#">
+              <h3 class="text-sm font-medium text-gray-900 lg:text-lg">
+                Pelantikan Anggota BEM Periode 2023/2024
+              </h3>
+            </a>
+            <p class="mt-2 line-clamp-3 text-xs text-gray-500 lg:text-sm">
+              Selamat dan Sukses atas dilantiknya BEM ITBA DCC periode 2023/2024
+            </p>
+            <a href="#" class="group mt-4 inline-flex items-center transition duration-300 gap-1 text-xs font-medium bg-rose-600 py-2 px-3 rounded-full text-white hover:bg-rose-700 lg:text-md lg:py-2 lg:px-4">
+              Baca selengkapnya
+              <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180"> &rarr;
+              </span>
+            </a>
+          </div>
+        </article>
+        <article class="grid-2-blog overflow-hidden rounded-lg border bg-white shadow-md">
+          <img alt="" src="./IMG/lkmm.jpeg" class="h-56 w-full object-cover"/>
+          <div class="p-4 sm:p-6">
+            <a href="#">
+              <h3 class="text-sm font-medium text-gray-900 lg:text-lg">
+                LKMM dan Outbound
+              </h3>
+            </a>
+            <p class="mt-2 line-clamp-3 text-xs text-gray-500 lg:text-sm">
+              Latihan Kepemimpinan Manajemen Mahasiswa (LKMM) & Outbound BEM ITBA DCC
+            </p>
+            <a href="#" class="group mt-11 inline-flex items-center transition duration-300 gap-1 text-xs font-medium bg-rose-600 py-2 px-3 rounded-full text-white hover:bg-rose-700 lg:text-md lg:py-2 lg:px-4">
+              Baca selengkapnya
+              <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180"> &rarr;
+              </span>
+            </a>
+          </div>
+        </article>
+        <article class="grid-3-blog overflow-hidden rounded-lg border bg-white shadow-md">
+          <img alt="" src="./IMG/aksi.jpeg" class="h-56 w-full object-cover"/>
+          <div class="p-4 sm:p-6">
+            <a href="#">
+              <h3 class="text-sm font-medium text-gray-900 lg:text-lg">
+                Seruan Aksi
+              </h3>
+            </a>
+            <p class="mt-2 line-clamp-3 text-xs text-gray-500 lg:text-sm">
+              Aksi menyuarakan dan turun ke jalan yang dilakukan oleh BEM ITBA DCC 
+            </p>
+            <a href="#" class="group mt-11 inline-flex items-center transition duration-300 gap-1 text-xs font-medium bg-rose-600 py-2 px-3 rounded-full text-white hover:bg-rose-700 lg:text-md lg:py-2 lg:px-4">
+              Baca selengkapnya
+              <span aria-hidden="true" class="block transition-all group-hover:ms-0.5 rtl:rotate-180"> &rarr;
+              </span>
+            </a>
+          </div>
+        </article>
+      </div>
+      <div class="btn-blog text-center mt-10 lg:mt-20">
+        <a href="./blog.html" class="bg-rose-600 shadow-lg px-4 font-medium uppercase text-xs text-white py-2 mx-auto rounded-full transition duration-300 hover:bg-rose-700 lg:py-3 lg:px-4 lg:text-sm">Lihat Semua Konten</a>
+      </div>
+    </section>
+<section id="galeri" class="bg-slate-100">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <h2 class="h2-galeri text-2xl mb-10 text-center font-bold text-gray-900 lg:text-3xl">Galeri Kegiatan</h2>
+        <ul class="mt-8 grid m-1 grid-cols-1 gap-4 lg:grid-cols-3">
+            <li>
+                <a href="./IMG/pelantikan.jpeg" class="img-1-galeri group relative block">
+                    <img src="./IMG/pelantikan.jpeg" alt="" class="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90" />
+                    <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
+                      <span class="shadow-lg mt-1.5 inline-block bg-white rounded-full px-5 py-3 text-xs font-medium uppercase tracking-wide text-black transition duration-300 hover:bg-transparent hover:border hover:border-white hover:text-white">
+                        Lihat Gambar
+                        </span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="./IMG/bukber.jpeg" class="img-2-galeri group relative block">
+                    <img src="./IMG/bukber.jpeg" alt="" class="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90" />
+                    <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
+                      <span class="shadow-lg mt-1.5 inline-block bg-white rounded-full px-5 py-3 text-xs font-medium uppercase tracking-wide text-black transition duration-300 hover:bg-transparent hover:border hover:border-white hover:text-white">
+                        Lihat Gambar
+                        </span>
+                    </div>
+                </a>
+            </li>
+            <li class="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+                <a href="./IMG/sidang.jpeg" class="img-3-galeri group relative block">
+                    <img src="./IMG/sidang.jpeg" alt="" class="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90" />
+                    <div class="absolute inset-0 flex flex-col items-start justify-end p-6">
+                      <span class="shadow-lg mt-1.5 inline-block bg-white rounded-full px-5 py-3 text-xs font-medium uppercase tracking-wide text-black transition duration-300 hover:bg-transparent hover:border hover:border-white hover:text-white">
+                        Lihat Gambar
+                        </span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-galeri text-center">
+        <a href="./galeri.html" class="bg-rose-600 shadow-lg w-full px-3 font-medium uppercase text-xs text-white py-2 mx-auto rounded-full transition duration-300 hover:bg-rose-700 lg:py-3 lg:px-4 lg:text-sm">Lihat Semua Gambar</a>
+    </div>
+</section>
+<div id="faq" class="faq space-y-4 m-10 lg:m-32">
+    <h3 class="font-semibold">FAQ</h3>
+    <details class="group [&_summary::-webkit-details-marker]:hidden" open>
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+        <h2 class="font-medium text-sm lg:text-lg">Bagaimana cara bergabung dengan organisasi BEM ITBA DCC?</h2>
+        <svg class="size-5 shrink-0 transition duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <p class="mt-4 px-4 text-xs leading-relaxed text-gray-700 lg:text-sm">
+        Anda bisa bergabung dengan beberapa langkah berikut:<br>
+        1. Mengikuti Media Sosial BEM<br>
+        Ikuti akun resmi media sosial BEM ITBA DCC untuk mendapatkan informasi tentang kegiatan dan pendaftaran.<br>
+        2. Menghadiri Acara dan Kegiatan<br>
+        Ikut serta dalam acara atau kegiatan yang diselenggarakan oleh BEM ITBA DCC. Biasanya, ada pendaftaran terbuka atau undangan untuk bergabung.<br>
+        3. Menghubungi Pengurus<br>
+        Hubungi pengurus secara langsung melalui kontak yang tersedia, baik itu email, WhatsApp, atau platform lainnya.
+      </p>
+    </details>
+    <details class="group [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+        <h2 class="font-medium text-sm lg:text-lg">Bagaimana cara menyampaikan aspirasi atau keluhan?</h2>
+        <svg class="size-5 shrink-0 transition duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <p class="mt-4 px-4 text-xs leading-relaxed text-gray-700 lg:text-sm">
+        1. Mengisi Formulir Online<br>
+        BEM menyediakan formulir online dengan menghubungi kontak langsung atau media sosial resmi untuk menerima aspirasi dan keluhan dari mahasiswa.<br>
+        2. Menghubungi Perwakilan BEM<br>
+        Langsung berkomunikasi dengan perwakilan pengurus BEM ITBA DCC<br>
+        3. Menyampaikan Saat Rapat Umum<br>
+        Ikut partisipasi dalam rapat umum mahasiswa  untuk menyampaikan aspirasi atau keluhan secara langsung.
+      </p>
+    </details>
+    <details class="group [&_summary::-webkit-details-marker]:hidden">
+      <summary
+        class="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+        <h2 class="font-medium text-sm lg:text-lg">Bagaimana cara mengetahui informasi terbaru dari BEM?</h2>
+        <svg class="size-5 shrink-0 transition duration-300 group-open:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <p class="mt-4 px-4 text-xs leading-relaxed text-gray-700 lg:text-sm">
+        1. Media Sosial<br>
+        Ikuti akun resmi BEM di platform media sosial seperti Instagram, Facebook, dan Twitter untuk update terbaru.<br>
+        2. Situs Web Resmi<br>
+        Kunjungi situs web resmi BEM untuk pengumuman, berita, dan informasi penting lainnya.<br>
+        3. Papan Pengumuman Kampus<br>
+        Pantau informasi terbaru pada papan pengumuman di kampus.
+      </p>
+    </details>
+  </div>
+  <section id="testimoni" class="group-testi bg-gray-50">
+    <div class="m-3 max-w-screen-2xl px-4 py-12 sm:px-6 lg:m-32 lg:px-8 lg:py-16">
+      <div class="md:flex md:items-end md:justify-between">
+        <div class="max-w-xl">
+          <h2 class="h2-testi text-xl font-bold tracking-tight text-gray-900 lg:text-3xl">
+            Apa Kata Alumni?
+          </h2>
+        </div>
+        <a href="#" class="mt-6 shadow-lg inline-flex shrink-0 text-xs items-center gap-2 rounded-full border border-rose-600 px-4 py-2 text-black transition hover:bg-rose-600 hover:text-white md:mt-0 lg:py-3 lg:px-5">
+          <span class="font-medium"> Baca Semua Ulasan </span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="size-4 rtl:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+      </div>
+      <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">
+        <blockquote class="flex h-full flex-col justify-between bg-white p-6 shadow-md sm:p-8">
+          <div>
+            <div class="mt-4">
+              <p class="text-xl font-bold text-rose-600 sm:text-2xl">Randika Agung Perkasa</p>
+              <p class="mt-4 text-xs leading-relaxed text-gray-700 lg:text-md">
+                Berorganisasi itu penting untuk mengembangkan soft skill. Tapi tidak hanya itu, BEM ITBA DCC juga mengajarkan hard skill untuk menggali kemampuan berorganisasi dan siap kerja
+              </p>
+            </div>
+          </div>
+          <footer class="mt-4 text-xs font-medium text-gray-700 sm:mt-6 lg:text-sm">
+            &mdash; Network Engineer PT. Solusi Tech Husada
+          </footer>
+        </blockquote>
+        <blockquote class="flex h-full flex-col justify-between bg-white p-6 shadow-md sm:p-8">
+          <div>
+            <div class="mt-4">
+              <p class="text-xl font-bold text-rose-600 lg:text-2xl">Wahyu Dimas Adiputra</p>
+              <p class="mt-4 text-xs leading-relaxed text-gray-700 lg:text-md">
+                Sangat senang sekali bisa bergabung dalam organisasi BEM ITBA DCC. Banyak ilmu yang bisa diaplikasikan dalam kehidupan sehari-hari. Tentunya menambah relasi.
+              </p>
+            </div>
+          </div>
+          <footer class="mt-4 text-xs font-medium text-gray-700 sm:mt-6 lg:text-sm">
+            &mdash; Software Engineer Java Tech Indo
+          </footer>
+        </blockquote>
+        <blockquote class="flex h-full flex-col justify-between bg-white p-6 shadow-md sm:p-8">
+          <div>
+            <div class="mt-4">
+              <p class="text-xl font-bold text-rose-600 lg:text-2xl">Ernanda Cahya Saputra</p>
+              <p class="mt-4 text-xs leading-relaxed text-gray-700 lg:text-sm">
+                Sebagai alumni BEM ITBA DCC, saya harap organisasi ini sebagai wadah untuk menggali ilmu sebagai bekal untuk melanjutkan pendidikan dan bekerja.
+              </p>
+            </div>
+          </div>
+          <footer class="mt-4 text-xs font-medium text-gray-700 sm:mt-6 lg:text-sm">
+            &mdash; Digital Marketing PT. Jaya Abadi Sentosa
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+  <section id="kontak" class="bg-slate-100">
+    <div class="m-2 max-w-screen-xl px-4 py-16 lg:mx-auto sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
+        <div class="lg:col-span-2 lg:py-12">
+          <h1 class="h1-kontak max-w-xl text-xl font-bold lg:text-3xl">
+            Kontak Kami!
+          </h1>
+          <div class="p-kontak mt-8">
+            <a href="#" class="text-sm text-black lg:text-md">+62 881-4324-4568</a>
+            <address class="mt-1 text-sm not-italic lg:text-md">Jl. Cut Nyak Dien No. 65 Durian Payung Palapa Bandar Lampung</address>
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.987125650706!2d105.24487627452086!3d-5.418925354106798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40dbf768088a99%3A0x5a2b32abcf010329!2sITBA%20DCC!5e0!3m2!1sid!2sid!4v1722571091536!5m2!1sid!2sid" 
+          class="map-kontak w-full h-auto lg:w-full lg:h-96" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form-kontak rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+          <form action="#" class="space-y-4">
+            <div>
+              <label class="sr-only" for="name">Nama</label>
+              <input class="w-full rounded-lg text-xs border-gray-200 p-3 lg:text-sm" placeholder="Nama" type="text" id="name"/>
+            </div>
+            <div>
+              <label class="sr-only" for="subject">Subject</label>
+              <input class="w-full rounded-lg text-xs border-gray-200 p-3 lg:text-sm" placeholder="Subject" type="text" id="subject"/>
+            </div>
+            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div>
+                <label class="sr-only" for="email">Email</label>
+                <input class="w-full rounded-lg text-xs border-gray-200 p-3 lg:text-sm" placeholder="Email" type="email" id="email"/>
+              </div>
+              <div>
+                <label class="sr-only" for="phone">No. Telepon</label>
+                <input class="w-full rounded-lg text-xs border-gray-200 p-3 lg:text-sm" placeholder="No. Telepon" type="tel" id="phone"/>
+              </div>
+            </div>
+            <div>
+              <label class="sr-only" for="message">Pesan</label>
+              <textarea class="w-full rounded-lg text-xs border-gray-200 p-3 lg:text-sm" placeholder="Tulis Pesan" rows="8" id="message"></textarea>
+            </div>
+            <div class="mt-4">
+              <button type="submit" class="inline-block w-full text-xs rounded-full bg-rose-600 px-7 py-3 font-medium text-white hover:bg-rose-700 sm:w-auto full lg:text-sm lg:rounded-lg">
+                Kirim
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-gray-900">
+    <div class="relative mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
+      <div class="absolute end-4 top-4 sm:end-6 sm:top-6 lg:end-8 lg:top-8">
+        <a class="inline-block rounded-full bg-rose-600 p-2 text-white shadow transition hover:bg-rose-500 sm:p-3 lg:p-4" href="#home">
+          <span class="sr-only">Back to top</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+      </div>
+      <div class="lg:flex lg:items-end lg:justify-between">
+        <div>
+          <div class="flex justify-center text-teal-600 lg:justify-start">
+            <img src="./IMG/logofooter.png" class="h-24 lg:h-28" alt="">
+          </div>
+          <p class="mx-auto text-xs font-semibold max-w-md text-center leading-relaxed text-slate-300 lg:text-left lg:text-sm">
+            Badan Eksekutif Mahasiswa ITBA DCC<br>Jl. Cut Nyak Dien No. 65 Durian Payung Palapa Bandar Lampung.
+          </p>
+        </div>
+        <ul
+          class="mt-12 flex flex-wrap text-xs justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:text-sm lg:gap-12">
+          <li>
+            <a class="text-slate-300 transition hover:text-rose-600" href="#profile"> Profile </a>
+          </li>
+  
+          <li>
+            <a class="text-slate-300 transition hover:text-rose-600" href="#struktur"> Struktur Anggota </a>
+          </li>
+  
+          <li>
+            <a class="text-slate-300 transition hover:text-rose-600" href="#blog"> Blog </a>
+          </li>
+  
+          <li>
+            <a class="text-slate-300 transition hover:text-rose-600" href="#galeri"> Galeri </a>
+          </li>
+  
+          <li>
+            <a class="text-slate-300 transition hover:text-rose-600" href="#kontak"> Kontak </a>
+          </li>
+        </ul>
+      </div>
+      <p class="mt-12 text-center text-xs text-slate-300 lg:text-right lg:text-sm">
+        Copyright &copy; 2024 Muhammad Fahmi & Syayyidah. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
